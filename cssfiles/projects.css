@@ -1,0 +1,142 @@
+.flex-project{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flex-list{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0,0,0,.6) url("/bgimg/bg1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.project-header{
+    z-index: 1px;
+    color: black;
+    font-family: Times;
+    letter-spacing: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.flex-port{
+    width: 40%;
+    height: 400px;
+    border-radius: 40px 0px 0px 0px; 
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.flex-thesis{
+    width: 40%;
+    height: 400px;
+    border-radius: 0px 40px 0px 0px; 
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.thesis, .portfol{
+    width: 100%;
+}
+.flex-calc{
+    width: 40%;
+    height: 400px;
+    border-radius: 0px 0px 0px 40px; 
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.flex-tbd{
+    width: 40%;
+    height: 400px;
+    border-radius: 0px 0px 40px 0px; 
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+
+
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.flex-port{
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 200ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.flex-calc{
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 200ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes slideInRight {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.flex-thesis{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.flex-tbd{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 200ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@media (max-width: 720px){
+    .flex-list{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .flex-port, .flex-thesis, .flex-calc, .flex-tbd{
+        width: 100%;
+        border-radius: 5px;
+        height: 230px;
+    }
+    .flex-port{
+        border-radius: 15px 15px 0px 0px;
+    }
+    .flex-tbd{
+        border-radius: 0px 0px 15px 15px;
+    }
+}

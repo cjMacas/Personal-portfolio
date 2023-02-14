@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="icon" type="image/png" href="icons/cjmacasicon.png"/>
+       <link rel="stylesheet" href="cssfiles/general.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/navigation.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/content.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/skills.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/resize.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/socials.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/projects.css" type="text/css">
+       <script src="jscripts/javascripts.js"> </script>
+
+       <title> CJ Macas Portfolio </title>
+    </head>
+    <body>
+        <div class="flex-nav">
+            <div class="left-nav"> 
+              <!-- <a href="index.html"><img class="left-nav-img" src="img/apexx.png"></a> -->
+                <a href="index.html"><p class="left-nav-fn"> CJ 
+                <span class="left-nav-ln"> Macas </span> 
+            </p></a>
+            </div>
+            <div class="middle-nav"> </div>
+            <div class="right-nav" id="navMenu"> 
+                <ul class="right-nav-text">
+                    <li><a href="index.html"> About me </a></li>
+                    <li><a href="#"> My Projects </a></li>
+                    <li><a href="experience.html"> Work Experience </a></li>
+                </ul> </div>    
+                <div class="hiddenBurger">
+                 <!--  <button id="btn-burger" class="btn-style"> Yes</button> -->
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                <script> 
+                    const burger = document.querySelector(".hiddenBurger");
+                    const navMenu = document.querySelector(".right-nav");
+                    
+                    burger.addEventListener("click", () => {
+                        burger.classList.toggle("active");
+                        navMenu.classList.toggle("active");
+                    })    
+                </script>                    
+                </div>
+            </div>
+        </div>
+        <div class="flex-project"></div>
+            <div class="flex-list">
+                <div class="flex-port">
+                    <p class="project-header"><a href="#"> My Portfolio </a></p>
+                    <img name="portfolioImage" class="portfol"> 
+                </div>
+                <div class="flex-thesis">
+                    <p class="project-header"><a href="https://github.com/cjMacas/kindergarten-thesis"> College Thesis </a></p> 
+                    <img name="thesisImage" class="thesis">
+                 </div>
+                <div class="flex-calc">
+                    <p class="project-header"> Calculator  </p> 
+                </div>
+                <div class="flex-tbd"> 
+                    <p class="project-header"> TBD </p> 
+                 </div>
+            </div>
+
+            <div class="socials">
+                <div class="top-side"> 
+                    <a href="https://twitter.com/MacasJosh"><img class="twitter" src="icons/twitter.png"> </a>
+                    <a href="https://www.linkedin.com/in/christian-josh-macas-676757197/"><img class="linkedin" src="icons/linkedin.png"> </a>
+                    <a href="https://github.com/cjMacas"><img class="github" src="icons/github.png"> </a>
+                    <a href="https://www.facebook.com/ChangeNamae/"><img class="facebook" src="icons/facebook.png"> </a> 
+                </div>
+                <div class="bottom-side"></div>
+                    <p class="designer">Designed and developed by: 
+                        <span class="des-name"> Christian Josh Macas </span> </p>
+                </div>
+            </div>
+            
+    </body>
+</html>

@@ -1,0 +1,268 @@
+/*Codes below are for skills and application section*/
+.flex-bottom{
+    height: auto;
+    background: rgba(0,0,0,.6) url("/skills/tech.webp");
+    background-size: cover;
+    background-blend-mode: darken;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.flex-skill{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills-desc{
+    font-size: 25px;    
+    text-align: center;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+/*Codes below are for Microsoft Visual Studio Code logo*/
+.skill-1{
+    width: 20%;
+    height: 300px;
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    border-color: rgba(192, 192, 192, .3);
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.skill-desc{
+    font-size: 18px;
+    color: rgb(36, 32, 32);
+    text-align: center;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.vscode-logo-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: auto;
+    margin-top: 25px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(106, 128, 250, 0.3));
+}
+.vscode-logo-1:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px; 
+    height: auto;
+    filter: drop-shadow( 10px 10px 10px rgb(106, 128, 250, 0.9)); 
+}
+/*Codes below are for Javascript logo*/
+.skill-2{
+    width: 20%;
+    height: 300px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.js-logo-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    margin-top: 15px;
+    filter: drop-shadow( 10px 10px 10px rgba(255, 223, 43, 0.6)); 
+    transition: .5s ease-in-out;
+}
+.js-logo-2:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: auto;
+    filter: drop-shadow( 10px 10px 10px rgba(255, 223, 43, 0.9)); 
+}
+/*Codes below are for html logo*/
+.skill-3{
+    width: 20%;
+    height: 300px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.html-logo-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 200px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(253, 94, 31, 0.4)); 
+}
+.html-logo-3:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    filter: drop-shadow( 10px 10px 10px rgb(253, 94, 31, 0.99)); 
+}
+/*Codes below are for css logo*/
+.skill-4{
+    width: 20%;
+    height: 300px;
+    border-radius: 0px 20px 20px 0px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.css-logo-4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 150px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(9, 46, 255, 0.4)); 
+}
+.css-logo-4:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(9, 46, 255, 0.7)); 
+}
+/*Codes below are for wordpress logo*/
+.skill-5{
+    width: 20%;  
+    height: 300px;                                                             
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    /*background-color: rgba(219, 219, 219, 0.7);*/
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.wp-logo-5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(21, 169, 255, 0.4)); 
+}
+.wp-logo-5:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(21, 169, 255, 0.99)); 
+}
+/*Codes below are for github logo*/
+.skill-6{
+    width: 20%;  
+    height: 300px;                                                             
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.gh-logo-6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    margin-top: 1px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(0, 0, 0, 0.4)); 
+}
+.gh-logo-6:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    filter: drop-shadow( 10px 10px 10px rgba(0, 0, 0, 0.8)); 
+}
+/*Codes below are for react logo*/
+.skill-7{
+    width: 20%;  
+    height: 300px;                                                             
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.react-logo-7{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-top: 24px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(16, 127, 155, 0.5)); 
+}
+.react-logo-7:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    filter: drop-shadow( 10px 10px 10px rgba(16, 127, 155, 0.9)); 
+}
+/*Codes below are for git logo*/
+.skill-8{
+    width: 20%;  
+    height: 300px;                                                             
+    border-radius: 0px 20px 20px 0px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+}
+.git-logo-8{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 7px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(236, 63, 11, 0.5)); 
+}
+.git-logo-8:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    transition: .5s ease-in-out;
+    filter: drop-shadow( 10px 10px 10px rgba(236, 63, 11, 0.9)); 
+}
+
+
+
+
+
+
+
+
+
+

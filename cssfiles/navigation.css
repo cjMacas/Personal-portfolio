@@ -1,0 +1,107 @@
+.flex-nav{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.left-nav{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+}
+.left-nav-fn{
+    color: red;
+    margin-left: 50px;
+    font-family: serif;
+    font-weight: 600;
+}
+.left-nav-ln{
+    color: white;
+    font-family: 'Franklin Gothic Medium'; 
+}
+.middle-nav{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    padding-right: 30px;;
+}
+.right-nav{
+    flex: 1px;
+    align-items: center;
+    display: flex;
+}
+.right-nav ul {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-shrink: 0;
+}
+.right-nav li{
+    display: inline-block;
+    margin: 25px; 
+}
+.active ul li{
+    color: black;
+}
+.hiddenBurger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out ;
+    transition: all 0.3s ease-in-out ;
+    background-color: white;
+    text-align: center;
+}
+ul li::after{
+    content:'';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: flex;
+    transition: .5s ease-in-out;
+}
+ul li:hover::after{
+    content:'';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+.education-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.flex-educ-desc{
+    flex: 1;
+}
+.educ-desc{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -40px;
+}
+.school-name-year{
+    flex: 1;
+}
+.s-name-year{
+    padding: 0px 20px 5px 380px;
+    color: black;
+    margin-bottom: 30px;
+}
+.course{
+    color: black;
+    padding-left: 80px;
+}

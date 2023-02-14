@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="icon" type="image/png" href="icons/cjmacasicon.png"/>
+       <link rel="stylesheet" href="cssfiles/general.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/navigation.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/content.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/skills.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/resize.css" type="text/css">
+       <link rel="stylesheet" href="cssfiles/socials.css" type="text/css">
+       <title> CJ Macas Portfolio </title>
+    </head>
+    <body>
+        <div class="flex-nav">
+            <div class="left-nav"> 
+              <!-- <a href="index.html"><img class="left-nav-img" src="img/apexx.png"></a> -->
+                <a href="index.html"><p class="left-nav-fn"> CJ 
+                <span class="left-nav-ln"> Macas </span> 
+            </p></a>
+            </div>
+            <div class="middle-nav"> 
+        
+            </div>
+            <div class="right-nav"> 
+                <ul class="right-nav-text">
+                    <li><a class="active" href="#"> About me </a></li>
+                    <li><a href="projects.html"> My Projects </a></li>
+                    <li><a href="experience.html"> Work Experience </a></li>
+                </ul> </div>    
+                <div class="hiddenBurger">
+                 <!--  <button id="btn-burger" class="btn-style"> Yes</button> -->
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                <script> 
+                    const burger = document.querySelector(".hiddenBurger");
+                    const navMenu = document.querySelector(".right-nav");
+                    
+                    burger.addEventListener("click", () => {
+                        burger.classList.toggle("active");
+                        navMenu.classList.toggle("active");
+                    })    
+                </script>      
+            </div>
+        </div>
+       
+        <div class="flex-content">
+            <div class="img1"> a     
+                <img class="img-1-content" src="img/cjmac.jpg">     
+            </div>
+            <div class="txt-sec">
+                <p class="head-name"> <span class="head-fn"> Josh </span> Macas </p>
+                <p class="head-title"> Front-end Web Developer </p>
+             <p class="content-text"> Hi! Thanks for checking out my portfolio, 
+                I'm Currently a self studying web developer I started my coding
+                 journey back in college when i was assigned to do our Thesis
+                  titled Kindergarten Multimedia Courseware,  <a href="thesis.html"> click here </a> </span>
+            </p>
+            </div>
+        </div>
+        <div class="education-flex">
+            <div class="flex-educ-desc">
+                <p class="educ-desc"> College Education </p>    
+            </div>
+            <div class="school-name-year">
+                <p class="s-name-year"> Polytechnic University of the Phillipines &#40;2017 &ndash; 2020&#41;
+                <span class="course"> Diploma in Information and Communication Technology </p>
+            </div>
+        </div>
+        <div class="flex-bottom">
+            <div class="flex-bottom-desc">
+                <p class="skills-desc"> Skills and Applications</p>
+            </div>
+            <div class="flex-skill">
+                <div class="skill-1">
+                    <p class="skill-desc"> Visual Studio Code </p>
+                    <a href="https://code.visualstudio.com/"><img class="vscode-logo-1" src="skills/vscode.png"></a>
+                </div>
+                <div class="skill-2"> 
+                    <p class="skill-desc"> JavaScript </p>
+                    <a href="https://www.javascript.com/"><img class="js-logo-2" src="skills/jslogo.png"></a>
+                </div>
+                <div class="skill-3">
+                    <p class="skill-desc"> HTML </p>
+                    <a href="https://html.com/"><img class="html-logo-3" src="skills/html-logo.png"></a>
+                </div>
+                <div class="skill-4">
+                    <p class="skill-desc"> CSS </p>
+                    <a href="https://www.w3schools.com/css/"><img class="css-logo-4" src="skills/css-logo.png"></a>
+                </div>
+                <div class="skill-5">
+                    <p class="skill-desc"> WordPress </p>
+                    <a href="https://wordpress.org/"><img class="wp-logo-5" src="skills/wp-logo.png"></a>
+                </div>
+                <div class="skill-6">
+                    <p class="skill-desc"> GitHub </p>
+                    <a href="https://github.com/"><img class="gh-logo-6" src="skills/gh-logo.png"></a>
+                </div>
+                <div class="skill-7">
+                    <p class="skill-desc"> React </p>
+                    <a href="https://reactjs.org/"><img class="react-logo-7" src="skills/react-logo.png"></a>
+                </div>
+                <div class="skill-8">
+                    <p class="skill-desc"> Git </p>
+                    <a href="https://git-scm.com/"><img class="git-logo-8" src="skills/git-logo.png"></a>
+                </div> 
+            </div> 
+        </div>
+        <div class="socials">
+            <div class="top-side"> 
+                <a href="https://twitter.com/MacasJosh"><img class="twitter" src="icons/twitter.png"> </a>
+                <a href="https://www.linkedin.com/in/christian-josh-macas-676757197/"><img class="linkedin" src="icons/linkedin.png"> </a>
+                <a href="https://github.com/cjMacas"><img class="github" src="icons/github.png"> </a>
+                <a href="https://www.facebook.com/ChangeNamae/"><img class="facebook" src="icons/facebook.png"> </a> 
+            </div>
+            <div class="bottom-side"></div>
+                <p class="designer">Designed and developed by: 
+                    <span class="des-name"> Christian Josh Macas </span> </p>
+            </div>
+        </div>
+    </body>
+</html>

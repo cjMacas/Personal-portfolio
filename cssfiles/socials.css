@@ -1,0 +1,45 @@
+.socials{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    padding-top: 30px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0, .7);
+    border-width: 2px 0px 0px 0px;
+}
+.top-side{
+    display: flex;
+}
+.linkedin{
+    width: 40px;
+
+}
+.github{
+    width: 90px;
+    margin-top: -6px;
+}
+.facebook{
+    width: 40px;
+}
+.twitter{
+    width: 44px;
+    margin-right: 18px;
+    margin-top: -1px;
+}
+.bottom-side{
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+.designer{
+    width: 250px;
+    color: black;
+}
+.des-name{
+    color: purple;
+    margin-left: 7px;
+    padding-bottom: 20px;
+    font-size: 19px;
+}

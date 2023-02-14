@@ -1,0 +1,90 @@
+.flex-experience{
+    display: flex;
+    flex-direction: column;
+   
+}
+.work-history{
+    background: rgba(0,0,0,.6) url("/bgimg/bg2.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.flex-dilg{
+    height: 150px;
+    padding: 50px 150px 0px 150px;
+}
+.flex-canon{
+    height: 180px;
+    padding: 50px 150px 0px 150px;
+}
+.flex-free, .flex-int3, .flex-int2, .flex-int1{
+    height: 130px;
+    padding: 50px 150px 0px 150px;
+}
+.flex-int1{
+    padding-bottom: 50px;
+}
+.job-txt{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+    margin-top: 3px;
+    font-size: 15.5px;
+    font-family: Arial;
+}
+.job-title{
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-style: italic;
+}
+.company-name{
+    font-family: Arial;
+    font-size: 18px;
+    border-radius: 5px 5px 5px 5px; 
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(192, 192, 192, .3);
+    box-shadow: 2px 2px #888888;
+    padding: 5px;
+}
+@media (max-width: 720px){
+    .job-title{
+        font-size: 16px;
+        font-family: Arial;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .company-name{
+        font-family: Arial;
+        font-size: 18px;
+        border-radius: 5px 5px 5px 5px; 
+    }
+    .job-txt{
+        width: 80%;
+    }
+    .flex-canon{
+        height: 350px;
+        padding: 20px 10px 0px 20px;   
+    }
+    .flex-dilg{
+        height: 285px;
+        padding: 20px 10px 0px 20px;       
+    }
+    .flex-free,.flex-int3{
+        height: 220px;
+        padding: 20px 10px 0px 20px;       
+    }
+    .flex-int2{
+        height: 170px;
+        padding: 20px 10px 0px 20px;
+    }
+    .flex-int1{
+        height: 270px;
+        padding: 20px 10px 0px 20px;       
+    }
+}
